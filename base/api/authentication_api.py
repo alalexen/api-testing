@@ -1,13 +1,13 @@
 from httpx import Response
 
 from models.authentication import AuthUser
-from utilities.clients.http.client import APIClient
-from utilities.constants.routes import APIRoutes
+from utils.clients.http.client import APIClient
+from utils.constans.routes import APIRoutes
 
 
 class AuthenticationClient(APIClient):
     def get_auth_token_api(self, payload: AuthUser) -> Response:
-        return self.client.post(f'{APIRoutes.Auth}/token', json=payload.model_dump())
+        return self.client.post(f'{APIRoutes.AUTH}/token', json=payload.model_dump())
 
     def get_auth_token(self, payload: AuthUser) -> str:
         """

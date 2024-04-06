@@ -2,7 +2,7 @@ from typing import TypedDict
 
 from pydantic import BaseModel, Field, RootModel
 
-from utilities.fakers import random_string, random_number, random_list_of_strings
+from utils.fakers import random_string, random_number, random_list_of_strings
 
 
 class UpdateQuestion(BaseModel):

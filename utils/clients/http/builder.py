@@ -1,7 +1,7 @@
 from base.api.authentication_api import AuthenticationClient
 from models.authentication import Authentication
 from settings import base_settings
-from utilities.clients.http.client import HTTPClient
+from utils.clients.http.client import HTTPClient
 
 
 def get_http_client(
