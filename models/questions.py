@@ -40,5 +40,5 @@ class QuestionDict(TypedDict):
     id: int
     question: str
     correctAnswer: str
-    possibleAnswer: list[str]
+    possibleAnswers: list[str]
 

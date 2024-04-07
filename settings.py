@@ -14,6 +14,8 @@ class Settings(BaseSettings):
     )
 
     base_url: str
+    test_user: TestUser = TestUser()
+
 
     @property
     def api_url(self) -> str:

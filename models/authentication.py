@@ -22,7 +22,3 @@ class Authentication(BaseModel):
                 "Please provide username and password or auth_token"
             )
         return self
-
-
-
-

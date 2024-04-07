@@ -31,6 +31,7 @@ class AssertionBase:
         self._description = description
         return self
 
+    @property
     def step_provider(self) -> StepProvider:
         return self._step_provider
 
