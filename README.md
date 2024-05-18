@@ -1,9 +1,7 @@
 This is an example of an API tests structure for [public API](https://sampleapis.com/api-list/futurama) 
-using combined approaches described in the following articles: 
+using approaches described in the following article: 
 
 [source article](https://habr.com/ru/articles/709380/)  
-
-[additional article](https://habr.com/ru/articles/765512/)  
 
 [httpx](https://www.python-httpx.org/) as an alternative to the requests library in case you need to use async APIs.
 
